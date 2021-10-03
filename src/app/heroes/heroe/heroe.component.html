@@ -1,0 +1,25 @@
+<h1>{{nombre}}</h1>
+
+<dl>
+    <td>Nombre</td>
+    <dd>{{nombre}}</dd>
+    <td>Edad</td>
+    <dd>{{edad}}</dd>
+    <td>Funcion</td>
+    <dd>{{obtenerNombre()}}</dd>
+    <td>Nombre Mayuscula</td>
+    <dd>{{nombre.toUpperCase()}}</dd>
+    
+</dl>
+
+<button (click)="refres()">
+    Actualizar página
+</button>
+
+<button (click)="cambiarNombre()">
+    Cambiar Heroe
+</button>
+
+<button (click)="cambiarEdad()">
+    Cambiar Edad
+</button>
